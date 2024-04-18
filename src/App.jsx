@@ -1,9 +1,10 @@
 import ProductList from "./components/ProductList";
+import Logo from '/logo.png';
 
 export default function App() {
     return (
         <div>
-            <h1 className=" text-xl text-center text-purple-700">React Infinite Scrolling</h1>
+            <img src={Logo} className=" w-52 mx-auto " alt="mylogo" />
 
             <ProductList />
         </div>

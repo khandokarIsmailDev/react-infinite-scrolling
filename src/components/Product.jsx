@@ -16,7 +16,7 @@ export default function Product({ title, thumbnail, price }) {
                     <Card.Title className="text-body-3 font-medium text-metal-500">
                         {price} TK
                     </Card.Title>
-                    <Button type="primary" size="sm" className="ml-3">
+                    <Button type="primary" size="sm" className="ml-3 bg-purple-700">
                         Check Out
                     </Button>
                 </Card.Container>
