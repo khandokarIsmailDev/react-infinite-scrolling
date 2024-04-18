@@ -34,7 +34,7 @@
       animation: 1.5s shine linear infinite;
     }
   
-    .image-skelton {
+    .image{
       height: 200px;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
